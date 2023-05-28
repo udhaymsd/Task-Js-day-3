@@ -1,0 +1,11 @@
+Window:
+The "window" object represents the browser window or tab that contains the current webpage. It acts as the global object for JavaScript code running within that window. The "window" object provides access to several properties and methods related to the window itself, such as dimensions, position, navigation history, and interaction with other windows.
+For example, you can use "window.alert()" to display an alert dialog, "window.open()" to open a new browser window, or "window.location" to manipulate the URL of the current window.
+
+Screen:
+The "screen" object represents the user's screen or monitor. It provides information about the user's screen properties, such as width, height, color depth, and available screen space. This object helps you determine the available screen real estate and adjust the layout or presentation of your webpage accordingly.
+For instance, you can use "screen.width" to get the width of the screen in pixels or "screen.availHeight" to get the available height for displaying content.
+
+Document:
+The "document" object represents the web page itself and provides access to the content within the document. It allows you to manipulate the HTML structure, modify element styles, handle events, and interact with the page's content.
+The "document" object is often used to access and modify elements on the page using methods like "getElementById()" or "querySelector()". It also provides access to properties like "document.title" to get or set the page's title, or "document.URL" to retrieve the current URL.
